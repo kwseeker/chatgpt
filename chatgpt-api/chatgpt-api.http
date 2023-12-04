@@ -1,0 +1,7 @@
+GET http://localhost:8080/success
+Accept: */*
+
+###
+GET http://localhost:8080/verify?token=success
+Accept: */*
+
