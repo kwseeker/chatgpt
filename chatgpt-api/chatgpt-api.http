@@ -5,3 +5,8 @@ Accept: */*
 GET http://localhost:8080/verify?token=success
 Accept: */*
 
+###
+POST http://localhost:8080/login HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+username=kwseeker&password=123456
+
